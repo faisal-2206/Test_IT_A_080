@@ -9,9 +9,10 @@
 <body>
     <div class="login-box">
         <h1>Login</h1>
-        <input type="text" placeholder="Username" class="user"><br>
-        <input type="password" placeholder="Password" class="pw"><br>
-        <button class="btn">Login</button>
+        <input type="text" placeholder="Username" id="username" class="user"><br>
+        <input type="password" placeholder="Password" id="password" class="pw"><br>
+        <button class="btn" onclick="validateLogin()">Login</button>
+        <p id="message"></p>
     </div>
     <script src="login.js"></script>
 </body>
