@@ -1,0 +1,33 @@
+body{
+    background-color: beige;
+}
+.login-box{
+    background-color: white;
+    margin: 500px;
+    margin-top: 200px;
+    padding: 30px;
+    text-align: center;
+}
+.user , .pw{
+    border: 3px black groove;
+    border-radius: 15px;
+    margin: 10px;
+    margin-left: 0px;
+    size: 20px;
+    padding: 10px;
+}
+.btn
+{   border: 0px;
+    color: white;
+    margin-top: 20px;
+    height: 30px;
+    width: 80px;
+    background-color: #28a745;
+}
+.btn:hover{
+    background-color: green ;
+}
+#message {
+    margin-top: 10px;
+    font-size: 14px;
+}

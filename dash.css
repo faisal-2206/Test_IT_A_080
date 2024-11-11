@@ -1,0 +1,37 @@
+body{
+    color:rgb(76, 184, 76)
+}
+.header{
+    text-align: center;
+    
+}
+.dash{
+    background-color: yellow;
+    display: inline;
+    
+}
+.btn
+{   border-radius: 7px;
+    font-family: sans-serif;
+    border: 0px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 40px;
+    width: 180px;
+    background-color: #28a745;
+    
+}
+.btn:hover{
+    background-color: green ;
+}
+.logout{
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    background-color: red;
+}
