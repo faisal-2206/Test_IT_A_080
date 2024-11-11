@@ -35,3 +35,6 @@ body{
     font-family: sans-serif;
     background-color: red;
 }
+.logout:hover{
+    background-color: brown;
+}
