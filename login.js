@@ -7,10 +7,9 @@ function validateLogin() {
         message.style.color = "green";
         message.textContent = "Login successful!";
         
-        
         setTimeout(() => {
             window.location.href = "Dashboard.html"; 
-        }, 1000);
+        }, 1000); 
 
     } else {
         message.style.color = "red";
